@@ -1,0 +1,216 @@
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    margin: 0 0.75rem;
+  }
+  
+  .toggle-switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  .toggle-switch .switch {
+    position: absolute;
+    cursor: pointer;
+    background-color: #b6b6b6;
+    border-radius: 25px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: background-color 0.2s ease;
+  }
+  
+  .toggle-switch .switch::before {
+    position: absolute;
+    content: "";
+    left: 2px;
+    top: 2px;
+    width: 21px;
+    height: 21px;
+    background-color: #333;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-switch input[type="checkbox"]:checked + .switch::before {
+    transform: translateX(25px);
+    background-color: #333;
+  }
+  
+  .toggle-switch input[type="checkbox"]:checked + .switch {
+    background-color: #ffffff;
+  }
+  
+  #theme-button {
+    cursor: pointer;
+  }
+  
+  .col {
+    margin: 10px;
+  }
+  
+  .nameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .fullName {
+    text-align: center;
+  }
+  
+  .fullName h1 {
+    font-size: 70px;
+  }
+  
+  .underName {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .beforeChangingWord,
+  #changingWord {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  nav,
+  .card {
+    background-color: #99b4bf;
+  }
+  
+  #btn-boot {
+    margin: 10dp;
+  }
+  
+  .navbar-brand,
+  .nav-link,
+  .nav-link-active {
+    color: white;
+  }
+  
+  body {
+    background-color: #5d7a8c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  
+  .dark-mode {
+    background-color: #99b4bf;
+    color: #f5f5f5;
+  }
+  
+
+  
+  .dark-mode h2,
+  .dark-mode p,
+  .dark-mode summary,
+  .dark-mode .navbar-brand,
+  .dark-mode .nav-link,
+  .dark-mode .nav-link-active,
+  .dark-mode .card-title {
+    color: #f5f5f5;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .kevin a:link,
+  .source:link {
+    color: #0366d6;
+  }
+  
+  .kevin a:visited , .source:visited {
+      color:cadetblue;
+  }
+  .kevin a:hover , .source:hover{
+      color:cornflowerblue;
+  }
+  .kevin a:active, .source:visited{
+      color:black;
+  }
+  
+  body{
+    font-family:monospace;
+  }
+  
+  .about{
+    display: flex;
+    margin: 15px;
+  }
+  
+
+  .about h2{
+    text-align: center;
+  }
+  
+  .about p{
+    margin: 20px;
+  }
+  
+  .text-center img{
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  
+  
+  ol{
+    list-style-type: none;  
+    width: 100%;
+  }
+  li{
+    display: inline-flex;
+    margin: 10px;
+  }
+  
+  .contact-list img{
+    width: 45px;
+  }
+  
+  #buttonPage, .btn-spacing{
+    margin: 5px;
+  }
+  
+  .custom-footer {
+    background-color: #5D7A8C; 
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .copy {
+    font-size: 14px;
+  }
+
+  .dark-mode .card{
+    background-color:#5D7A8C; 
+  }
+  .dark-mode .custom-footer{
+    background-color: #99b4bf;
+    color: #f5f5f5;
+  }
+  .navBar {
+    background-color: #99b4bf;
+  }
+  
+  .dark-mode .navBar {
+    background-color: #5D7A8C;
+  }
+
+
