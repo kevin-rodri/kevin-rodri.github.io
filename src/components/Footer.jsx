@@ -17,7 +17,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/kevin-rodri/" target="_blank">
           <Image src={whiteLinkedin} className="icon" alt="LinkedIn" />
         </a>
-        <a href="Rodriguez_Kevin_Resume-12_29_22.pdf" target="_blank">
+        <a href="https://drive.google.com/file/d/1xovxpCdUc7eNEOCFclQ4DwrMjAtbRKkq/view?usp=sharing" target="_blank">
           <Image src={whiteResume} className="icon" alt="Resume" />
         </a>
         <a href="mailto: krodriguezg203@gmail.com">

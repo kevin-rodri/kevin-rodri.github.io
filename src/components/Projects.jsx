@@ -6,7 +6,7 @@ import graph from '../photos/graph.png';
 import { Link } from "react-router-dom";
 function Projects() {
   return (
-    <div className="text-center">
+    <div className="text-center" style={{ margin: "20px" }}>
   <div id="projects" className="projects">
     <h2 >Programming Projects</h2>
     <p className="descri">Here I will include a list of projects that I have been working out throughout my programming career. Feel free to click on the project to be redircted to their proper Github Repository.</p>

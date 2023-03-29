@@ -40,7 +40,7 @@
   }
   
   .toggle-switch input[type="checkbox"]:checked + .switch {
-    background-color: #ffffff;
+    background-color:#99b4bf;
   }
   
   #theme-button {
