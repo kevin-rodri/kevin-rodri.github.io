@@ -28,7 +28,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="copy">
-        <p>&copy; {new Date().getFullYear().toPrecision()} Kevin Rodriguez</p>
+        <p>&copy; 2023 Kevin Rodriguez</p>
       </div>
     </footer>
   );
