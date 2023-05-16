@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
 import projectZ from '../photos/project-z.png';
-import socialJustice from '../photos/socialJustice.png';
+import stockMarket from "../photos/StockMarketMastery.png"
 import graph from '../photos/graph.png';
 import { Link } from "react-router-dom";
 function Projects() {
@@ -14,30 +14,29 @@ function Projects() {
   
   <Container>
     <Row className="g-0 text-center">
+    <Col >
+        <div className="card">
+        <Image src={stockMarket}  className="card-img-top mx-auto" alt="Stock-Market-Mastery" />
+          <div className="card-body">
+            <h5 className="card-title" style={{ textAlign: "center" }}>Stock-Market-Mastery</h5>
+            <p className="card-text">
+            An Android application that allows users to learn more about stocks. The user can search through thousands of stock companies and retain more information about a company's stock. If they're convinced, the user can purchase that company's stock or continue to look for other stocks. Once a stock is bought, the user can sell it in return for some profit based on how much they're willing to sell. This project was worked on alongside Harsh Gandhi, a Computer Science and Data Science undergraduate at Quinnipiac. 
+            </p>
+            <a href= "https://github.com/GandhiHarsh2003/Stock-Market-Mastery" className="btn btn-primary btn-spacing" id='btn-boot'>Go to Source Code</a>
+          </div>
+        </div>
+      </Col>
       <Col>
         <div className="card">
         <Image src={projectZ} className="card-img-top mx-auto" style={{ margin: "10px" }} alt="Project Z" />
           <div className="card-body">
             <h5 className="card-title">Project Z</h5>
-            <p className="card-text">
+          <p className="card-text">
               I worked on an open-source RPG game designed for Quinnipiac's SER 225 Course. As part of this semester-long project, my peers and I collaborated in numerous scrum sprints to develop and enhance an RPG game written in Java. I collaborated with the scrum master on several reports detailing program reviews, customer requirements, and prioritized bugs & enhancements. I, Harsh Gandhi, Aaryan Kapoor, Matthew Nova, and Brian Wanamaker created this game, all of which are Quinnipiac Computer Science and Software Engineering undergrads.
             </p>
             <a href="https://github.com/kevin-rodri/ZombieLand" className="btn btn-primary btn-spacing" id='btn-boot'>Go to Source Code</a>
             <a href="https://a-r-t.github.io/SER225-Project-Website/semesters/fall2022/teams/project-z"  id='btn-boot' className="btn btn-primary btn-spacing">Go to Documentation</a>
 
-          </div>
-        </div>
-      </Col>
-      <Col >
-        <div className="card">
-        <Image src={socialJustice}  className="card-img-top mx-auto" style={{ margin: "10px" }} alt="Social-Justice-Platform" />
-          <div className="card-body">
-            <h5 className="card-title" style={{ textAlign: "center" }}>Social-Justice-Platform</h5>
-            <p className="card-text">
-              A front-end site designed to raise awareness on the Overconsumption of Social Media by Teenagers/Young Adults. That site created using HTML, CSS, and Javascript to come up with a website that contained valuable Information regarding the topic. Research was based on extensive articles, books, and government agencies. User experience was prioritized by creating functional and enhanced user interface for all users to access site.
-            </p>
-            <a href="https://github.com/kevin-rodri/SocialJusticeSite" className="btn btn-primary btn-spacing" id='btn-boot'>Go to Source Code</a>
-            <a href="https://kevin-rodri.github.io/SocialJusticeSite/" className="btn btn-primary btn-spacing" id='btn-boot'>Go to Website</a>
           </div>
         </div>
       </Col>
