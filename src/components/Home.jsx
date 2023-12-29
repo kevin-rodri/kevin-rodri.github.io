@@ -10,7 +10,7 @@ function Home() {
       <Row className="justify-content-center"> 
         <Col className="text-center"> 
           <div className="fullName">
-            <h1>Kevin Rodriguez</h1>
+            <h1>Hey, I'm Kevin!</h1>
           </div>
         </Col>
       </Row>
@@ -18,7 +18,7 @@ function Home() {
         <Col className="text-center">
           <div className="underName">
             <div className="beforeChangingWord">
-              <p>Software Engineer Undergrad Ready to</p>
+              <p>Aspiring Software Engineer Ready to</p>
             </div>
             <WordRotation/>
           </div>

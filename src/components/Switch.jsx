@@ -15,10 +15,11 @@ function Switch() {
   };
 
   return (
-    <label className="toggle-switch">
-      <input type="checkbox" checked={isToggled} className='dark-mode' onChange={onToggle} />
-      <span className="switch" />
-    </label>
+    <label class="toggle-switch">
+    <input type="checkbox" checked={isToggled} class="dark-mode" onChange={onToggle} />
+    <span class="switch"></span>
+  </label>
+
   );
 }
 

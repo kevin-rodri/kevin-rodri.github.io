@@ -13,7 +13,7 @@
   .toggle-switch .switch {
     position: absolute;
     cursor: pointer;
-    background-color: #b6b6b6;
+    background-color: #5D7A8C; 
     border-radius: 25px;
     top: 0;
     right: 0;
@@ -83,9 +83,6 @@
     background-color: #99b4bf;
   }
   
-  #btn-boot {
-    margin: 10dp;
-  }
   
   .navbar-brand,
   .nav-link,
@@ -120,20 +117,111 @@
     text-decoration: none;
   }
   
-  .kevin a:link,
-  .source:link {
-    color: #0366d6;
+  svg {
+    margin-right: 10px;
   }
-  
-  .kevin a:visited , .source:visited {
-      color:cadetblue;
+
+
+.button-56 {
+  margin: 15dp;
+  align-items: center;
+  background-color: whitesmoke;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #99b4bf;
+  outline: 0;
+}
+
+.button-56:hover{
+  background-color: #99b4bf;
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
   }
-  .kevin a:hover , .source:hover{
-      color:cornflowerblue;
-  }
-  .kevin a:active, .source:visited{
-      color:black;
-  }
+}
+/* Light mode styles */
+.kevin a:link,
+.source:link {
+  color: #0056b3; 
+}
+
+.kevin a:visited,
+.source:visited {
+  color: #3a4b4f; 
+}
+
+.kevin a:hover,
+.source:hover {
+  color: #007bff; 
+}
+
+.kevin a:active,
+.source:active {
+  color: #000; 
+}
+
+/* Dark mode styles */
+.dark-mode .kevin a:link,
+.dark-mode .source:link {
+  color: #536666; 
+}
+
+.dark-mode .kevin a:visited,
+.dark-mode .source:visited {
+  color: #2c65a3; 
+}
+
+.dark-mode .kevin a:hover,
+.dark-mode .source:hover {
+  color: #4285f4; 
+}
+
+.dark-mode .kevin a:active,
+.dark-mode .source:active {
+  color: #e0e0e0; 
+}
   
   body{
     font-family:monospace;
@@ -198,6 +286,18 @@
     font-size: 14px;
   }
 
+  .dark-mode .button-56:active  {
+    background-color: #5D7A8C; 
+    outline: 0;
+  }
+  .dark-mode .button-56:hover  {
+    background-color: #5D7A8C; 
+    outline: 0;
+  }
+
+  .dark-mode #btn-boot, #btn-root {
+    color: #000;
+  }
   .dark-mode .card{
     background-color:#5D7A8C; 
   }

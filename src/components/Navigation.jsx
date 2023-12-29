@@ -7,17 +7,16 @@ function Navigation() {
   const location = useLocation();
 
   const handleClick = () => {
-    window.scrollTo(0, 0); // Scrolls to the top of the page
+    window.scrollTo(0, 0); 
   };
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
+    window.scrollTo(0, 0); 
   }, []);
 
   return (
     <Navbar expand="lg" sticky="top" className='navBar'>
       <Container fluid>
-        <Navbar.Brand as={Link} to="/" exact className={location.pathname === "/" ? "nav-link active" : "nav-link"}>My Website &#129312;</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
         <Navbar.Collapse id="navbarNavAltMarkup">
           <Nav className="me-auto">
