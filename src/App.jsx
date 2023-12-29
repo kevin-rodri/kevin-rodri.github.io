@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
@@ -10,12 +10,12 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <div className="App">
-      <Router>
+      <Router >
         <Navigation />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/"  element={<HomePage />} />
+          <Route path="/about"  element={<AboutPage />} />
+          <Route path="/projects"  element={<ProjectsPage />} />
         </Routes>
         <Footer />
       </Router>
