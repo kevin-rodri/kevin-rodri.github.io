@@ -2,12 +2,12 @@ import projectZImage from '../photos/project-z.png';
 import stockMarketImage from "../photos/StockMarketMastery.png";
 import hiredAIImage from "../photos/hiredaipicture.png";
 import openLabImage from "../photos/openlab.png";
-import aiConnect from "../photos/aiConnect.png";
+import aiConnectImage from "../photos/aiconnect.png";
 
 const projects = [
   {
     title: "AI Connect",
-    image: aiConnect,
+    image: aiConnectImage,
     description: "I co-developed an Android chat application using Kotlin that enables users to chat with an AI in 108 languages using speech and text inputs. The app integrates Amazon Polly and Google TTS for text-to-speech conversion, supporting 41 languages. The backend uses Amazon Web Services (AWS), with an AWS Lambda function as the interface between the frontend and Amazon Polly and an S3 bucket for storing generated audio files. Speech recognition is one of the many features added to support voice input in multiple languages. To reduce the need for repeated calls to the backend service, a LruCache for caching audio resulted in a 50% reduction in calls. Google's Gemini API generates conversations. I implemented Firebase for user authentication and MongoDB as our database backend to allow users to resume conversations.",
     sourceCodeLink: "https://github.com/Ajifolahan/AI_Dialogue_Assistant",
     demoLink: "https://momoreayinde.dev/Images/aiConnect.mp4"
